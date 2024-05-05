@@ -1,9 +1,8 @@
 function [trajvel, traj, A, P,time] = orbit(X,V,h,steps,m,Area)
 % output the traj, distance A from the centre of the Earth and orbital
-% period P
+% period P, time t for the total time of deorbiting
 % X, V and h are the current position, velocity and step size,
-% rho is the density of the air,
-%Cd is the drag coefficient,
+% steps is number of steps for orbit - sometimes this is irrelevant as code stops as cubesat reaches earth surface
 % m is the mass of the CubeSat,
 % Area is projected area of CubeSat
 
