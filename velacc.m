@@ -2,7 +2,7 @@ function [Xdot,Vdot] = velacc(X,V)
 % function to calculate the velocity and acceleration based on the current position X and
 % velocity V
 
-GM = 398600.4418e9; % Product of Gravitational Constant and Mass of the Earth
+GM = 398600.435507e9; % Product of Gravitational Constant and Mass of the Earth
 
 Xdot = V; % Xdot is velocity and is equal to V
 
